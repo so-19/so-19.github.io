@@ -1,0 +1,110 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Main content */
+.content {
+    flex: 3;
+}
+
+/* Image container */
+.image-container {
+    flex: 2;
+    text-align: right;
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* Links - Updated with better spacing */
+.links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.links a {
+    margin: 0 12px; /* Increased horizontal spacing */
+    padding: 5px 0;
+    font-size: 1.05rem;
+}
+
+.separator {
+    margin: 0 8px; /* Wider spacing around separators */
+    color: #888; /* Lighter color to reduce visual clutter */
+}
+
+/* Personal links (for compatibility with both HTML versions) */
+.personal-links {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.personal-links a {
+    margin: 0 12px;
+    padding: 5px 0;
+    font-size: 1.05rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    
+    .image-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile-image {
+        max-width: 70%;
+    }
+    
+    .links a, .personal-links a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+}
