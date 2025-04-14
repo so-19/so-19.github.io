@@ -108,3 +108,32 @@ p {
         display: inline-block;
     }
 }
+
+/* News section */
+.news-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0 25px;
+}
+
+.news-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 18px;
+}
+
+.news-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.news-list strong {
+    font-weight: 600;
+}
+
+.news-list em {
+    font-style: italic;
+}
