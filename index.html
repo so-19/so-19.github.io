@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharvil Oza - Portfolio</title>
+    <title>Sharvil Oza</title>
+    <meta name="description" content="Sharvil Oza: research in reinforcement learning, computational neuroscience, and finance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-56X7CLHLB6"></script>
@@ -16,67 +20,93 @@
     </script>
 </head>
 <body>
-    <h1>Sharvil Oza</h1>
+    <main class="page">
+        <header class="intro">
+            <img src="Images/profile.jpg" alt="Sharvil Oza" class="profile-photo">
+            <div class="intro-text">
+                <h1>Sharvil Oza</h1>
+                <p>I recently completed my B.Tech in Information and Communication Technology at
+                    <a href="https://www.daiict.ac.in/">DA&#8209;IICT</a>. I am currently a Research Scientist Intern at
+                    Lexsi Labs, working on tabular foundation models. I am also a research collaborator at
+                    <a href="https://liralab.usc.edu/">LiraLab</a>, University of Southern California, advised by
+                    <a href="https://ebiyik.github.io/">Prof. Erdem Biyik</a>.</p>
 
-    <div class="container">
-        <div class="content">
-            <p>I am a B.Tech student at the <a href="https://www.daiict.ac.in/">Dhirubhai Ambani Institute of Information and Communication Technology</a> in Computer Science and Engineering.</p>
+                <p>I have previously worked at FinHub, Rotman School of Management, University of Toronto, advised by
+                    <a href="https://goutham-atwork.github.io/">Prof. Goutham Gopalakrishna</a>
+                    and at the <a href="https://technionneuroailab.com/">Neuro AI Lab, Technion</a>, advised by
+                    Prof. Stefano Recanatesi. Before that, I was a research intern at the
+                    <a href="https://fintech.gatech.edu/#/">Georgia Tech Financial Services Innovation Lab</a>.</p>
 
-            <p>My research interests lie in the intersection of robotics, reinforcement learning, and autonomous systems. I'm particularly fascinated by robot learning and how we can develop algorithms that can enable robots to learn complex behaviors through interaction with their environment.</p>
+                <p>My research interests span robotics, machine learning, reinforcement learning, and
+                    computational neuroscience.</p>
 
-            <p>I also worked at the University of New South Wales, Business School, under the guidance of <a href="https://sites.google.com/view/aolivaresnadal">Dr. Alba V. Olivares-Nadal</a>, focusing on deep learning models.</p>
+                <p>I'm always happy to chat about anything related to my research interests. Feel free to reach out
+                    to me via <a href="mailto:sharvil010@gmail.com">email</a> if you'd like to discuss these topics or
+                    potential collaborations!</p>
 
-            <p>Previously, I was a Research Intern at <a href="https://fintech.gatech.edu/#/">Georgia Tech Financial Services Innovation Lab (FSIL)</a>, where I developed quantitative trading strategies and worked on portfolio optimization techniques.</p>
-
-            <p>I'm always happy to chat about anything related to my research interests. Feel free to reach out to me via email if you'd like to discuss these topics or potential collaborations!</p>
-            
-            <div class="personal-links">
-                <a href="mailto:sharvil010@gmail.com">Email</a>
-                <span class="separator"> | </span>
-                <!-- <a href="Data/CV_Sharvil.pdf">CV</a>
-                <span class="separator"> | </span> -->
-                <a href="https://github.com/so-19">Github</a>
-                <span class="separator"> | </span>
-                <a href="https://www.linkedin.com/in/sharvil-oza-37b5a8264">LinkedIn</a>
+                <nav class="links">
+                    <a href="mailto:sharvil010@gmail.com">Email</a>
+                    <span class="sep">/</span>
+                    <a href="https://scholar.google.com/citations?user=VaBpE2QAAAAJ">Google Scholar</a>
+                    <span class="sep">/</span>
+                    <a href="https://github.com/so-19">GitHub</a>
+                    <span class="sep">/</span>
+                    <a href="https://www.linkedin.com/in/sharvil-oza-37b5a8264">LinkedIn</a>
+                </nav>
             </div>
+        </header>
 
+        <!-- News -->
+        <section>
             <h2>News</h2>
-            <ul class="news-list">
-                <li>03/2025: Attended the <a href="https://www.solvaybusinessgame.com/home"><strong>Solvay Business Game</strong></a> in Brussels</li>
-                <li>12/2024: Started internship at <strong>UNSW Business School</strong> with Professor Alba V. Olivares-Nadal</li>
-                <li>05/2024: Started internship at <strong>Georgia Tech Financial Services Innovation Lab</strong></li>
+            <ul class="news">
+                <li><span class="date">10/2026</span> <span>Preprint <em>“Reward changes the use and structure of predictive spatial maps”</em> posted on <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762439v1">bioRxiv</a>.</span></li>
+                <li><span class="date">09/2026</span> <span>Our paper on tacit coordination in algorithmic markets was presented at INOEK 2026.</span></li>
+                <li><span class="date">09/2026</span> <span>Joined Lexsi Labs as a Research Scientist Intern.</span></li>
+                <li><span class="date">05/2026</span> <span>Graduated from <a href="https://www.daiict.ac.in/">DA&#8209;IICT</a>.</span></li>
+                <li><span class="date">03/2025</span> <span>Attended the <a href="https://www.solvaybusinessgame.com/home">Solvay Business Game</a> in Brussels.</span></li>
             </ul>
+        </section>
 
-            <h2>Selected Projects</h2>
-            <div class="projects">
-                
-                <div class="project">
-                    <h3>LMFusion Framework Implementation</h3>
-                    <p>Implemented the LMFusion framework to extend pretrained language-only LLMs with multimodal generative capabilities, integrating modality-specific attention and feedforward modules for text and image processing.</p>
+        <!-- Publications -->
+        <section>
+            <h2>Publications &amp; Preprints</h2>
+
+            <article class="pub">
+                <a class="pub-thumb" href="https://www.biorxiv.org/content/10.64898/2026.10.28.762439v1">
+                    <img src="Images/predictive_maps.png" alt="Model overview: predictive recurrent network and goal-conditioned controller">
+                </a>
+                <div class="pub-info">
+                    <a class="pub-title" href="https://www.biorxiv.org/content/10.64898/2026.10.28.762439v1">Reward changes the use and structure of predictive spatial maps</a>
+                    <div class="authors"><strong>Sharvil Oza</strong>, Amir Cohen, Genevieve Wager, Dori Derdikman, Stefano Recanatesi</div>
+                    <div class="venue">bioRxiv preprint, 2026 · Under review at eLife</div>
+                    <div class="pub-links">
+                        <a href="https://www.biorxiv.org/content/10.64898/2026.10.28.762439v1">Paper</a>
+                        <a href="https://github.com/TechnionNeuroAILab/spatial_predictive_RL">Code</a>
+                    </div>
                 </div>
-                
-                <div class="project">
-                    <h3>RAG Pipeline with Local LLM</h3>
-                    <p>Built a Retrieval-Augmented Generation system using GEMMA-2B-IT. This system enhances the capabilities of local language models by retrieving relevant information from a knowledge base, enabling more accurate and contextually appropriate responses.</p>
+            </article>
+
+            <article class="pub pub-compact">
+                <div class="pub-info">
+                    <span class="pub-title">Risk-Sensitive Learning and Tacit Coordination in Algorithmic Financial Markets: How Robust Is the Evidence?</span>
+                    <div class="authors">Zissis Poulos, Goutham Gopalakrishna, Charalampos Kleitsikas, Stefanos Leonardos, <strong>Sharvil Oza</strong>, Carmine Ventre</div>
+                    <div class="venue">4th International Scientific Conference (INOEK 2026) · Oral presentation</div>
                 </div>
-                
-                <div class="project">
-                    <h3>RL-Based Drone Stabilization</h3>
-                    <p>Designed a drone simulation using reinforcement learning algorithms. This project demonstrates how RL can be applied to control systems, enabling drones to maintain stability in various environmental conditions without explicit programming.</p>
+            </article>
+
+            <article class="pub pub-compact">
+                <div class="pub-info">
+                    <span class="pub-title">EffectNav: Act by Effect Not by Actuator for Zero-Shot Recovery from Unseen Actuator Faults in Hierarchical UAV Navigation</span>
+                    <div class="authors"><strong>Sharvil Oza</strong>, Manish Kumar</div>
+                    <div class="venue">Under review at IEEE RA&#8209;L</div>
                 </div>
+            </article>
+        </section>
 
-                <div class="project">
-                    <h3>Investment Portfolio Optimization</h3>
-                    <p>Created an MPT-based asset allocation model with Monte Carlo simulations. This tool helps investors optimize their portfolios based on risk tolerance, expected returns, and market conditions, providing visualizations of potential outcomes.</p>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="image-container">
-            <img src="Images/profile.jpg" alt="Sharvil Oza" class="profile-image">
-        </div>
-    </div>
-
+        <footer>
+            Last updated November 2026
+        </footer>
+    </main>
 </body>
 </html>
